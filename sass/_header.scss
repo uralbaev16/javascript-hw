@@ -1,0 +1,52 @@
+body{
+    background: gold;
+    height: 100vh; 
+}
+header{
+    background: #000;
+    height: 100px;
+    .navbar{
+        &__image{
+            padding: 15px 0;
+            width: 300px;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__collection{
+            display: flex;
+            gap: 70px;
+        }
+        &__item{
+            color: #fff;
+           
+        }
+        &__menu{
+            color:  #fff;
+            display: none;
+        }
+    }
+    
+}
+@media (max-width: 800px) {
+    header{
+        .navbar{
+            &__collection{
+                display: none;
+            }
+            &__menu{
+                display: block;
+            }
+        }
+    }
+}
+@media (max-width: 450px) {
+    header{
+        .navbar{
+            &__image{
+                width: 150px;
+                padding: 30px 0;
+            }
+        }
+    }
+}

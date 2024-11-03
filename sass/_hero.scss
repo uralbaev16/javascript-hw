@@ -1,0 +1,160 @@
+.hero{
+    margin-left: 50px;
+    margin-top: 80px;
+    h2{
+        padding: 8px 25px;
+        width: 230px;
+        height: 40px;
+        background: #000; 
+        color: gold;
+        font-family: 'PS Commons Extra Bold';
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 80px;
+        font-weight: 900;
+    }
+    &__word{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        strong{
+            font-size: 70px;
+            font-weight: 500;
+        }
+        h3{
+            font-size: 70px;
+            font-weight: 800;
+        }
+        p{
+            font-size: 30px;
+            font-weight: 400;
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 1070px) {
+    .hero{
+        h1{
+            font-size: 60px;
+            font-weight: 700;
+        }
+        &__word{
+            strong{
+                font-size: 50px;
+                font-weight: 500;
+            }
+            h3{
+                font-size: 50px;
+                font-weight: 800;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+@media (max-width: 735px) {
+    .hero{
+        h2{
+            padding: 12px 20px;
+            width: 150px;
+            height: 40px;
+            font-size: 15px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        h1{
+            font-size: 40px;
+            font-weight: 600;
+        }
+        &__word{
+            strong{
+                font-size: 40px;
+                font-weight: 400;
+            }
+            h3{
+                font-size: 40px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+@media (max-width: 535px) {
+    .hero{
+        h2{
+            padding: 14px 15px;
+            width: 120px;
+            height: 40px;
+            font-size: 13px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        h1{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        &__word{
+            strong{
+                font-size: 30px;
+                font-weight: 300;
+            }
+            h3{
+                font-size: 30px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 10px;
+                font-weight: 300;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+@media (max-width: 420px) {
+    .hero{
+        h2{
+            padding: 10px 12px;
+            width: 90px;
+            height: 30px;
+            font-size: 10px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        h1{
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        &__word{
+            strong{
+                font-size: 25px;
+                font-weight: 300;
+            }
+            h3{
+                font-size: 25px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 10px;
+                font-weight: 300;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+@media (max-width: 340px) {
+    .hero{
+        &__word{
+           display: none;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.text{
+    text-align: center;
+    margin-top: 100px;
+    h2{
+        font-size: 30px;
+        font-weight: 800;
+        color: #000;
+    }
+    p{
+        font-size: 17px;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 30px;
+    }
+    &__btn{
+        margin-bottom: 100px;
+        padding: 15px 50px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    &__btn:hover{
+        background: linear-gradient(90deg, #ec008c, #ff8a00);
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        transition:.3s;
+    }
+    &__btn:active{
+        transform: scale(.96);
+        transition: .3s;
+    }
+}
